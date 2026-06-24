@@ -337,6 +337,11 @@ a specific ID 823423 from an array of comment objects.
 let commentById = {};
 
 // Complete the exercise in the space below:
+    commentById= comments.find(function(comment){
+        return comment.id === "823423"
+    }
+
+    )
 
 // Check your work:
 console.log('Exercise 8 my result: ', commentById);
